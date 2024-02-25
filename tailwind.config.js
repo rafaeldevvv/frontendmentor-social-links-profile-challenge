@@ -8,8 +8,8 @@ module.exports = {
       green: "hsl(75, 94%, 57%)",
       white: "hsl(0, 0%, 100%)",
       gray: "hsl(0, 0%, 20%)",
-      darkGray: "hsl(0, 0%, 12%)",
-      offBlack: "hsl(0, 0%, 8%)"
+      darkgray: "hsl(0, 0%, 12%)",
+      offblack: "hsl(0, 0%, 8%)"
     },
     fontFamily: {
       sans: ["Inter", ...defaultTheme.fontFamily.sans]

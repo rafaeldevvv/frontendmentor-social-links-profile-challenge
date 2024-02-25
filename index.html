@@ -15,49 +15,87 @@
 
     <title>Frontend Mentor | Social links profile</title>
   </head>
-  <body>
-    <main>
-      <article>
-        <div>
-          <img
-            src="assets/images/avatar-jessica.jpeg"
-            alt="beautiful woman looking at the camera"
-          />
-        </div>
-        <header>
-          <h1>Jessica Randall</h1>
-          <h2>London, United Kingdom</h2>
-        </header>
-        <p class="font-semibold">"Front-end developer and avid reader."</p>
+  <body
+    class="bg-offblack text-white px-4 py-6 flex place-content-center place-items-center min-h-screen text-center"
+  >
+    <div class="w-full max-w-md">
+      <main>
+        <article class="bg-darkgray rounded-xl p-6 md:p-10">
+          <div>
+            <img
+              src="assets/images/avatar-jessica.jpeg"
+              alt="beautiful woman looking at the camera"
+              class="rounded-full block mx-auto max-w-24 mb-8"
+            />
+          </div>
+          <header class="mb-8">
+            <h1 class="text-2xl mb-2 font-bold">Jessica Randall</h1>
+            <h2 class="text-sm text-green font-semibold">
+              London, United Kingdom
+            </h2>
+          </header>
+          <p class="mb-6">"Front-end developer and avid reader."</p>
 
-        <ul>
-          <li>
-            <a href="https://www.example.com"> GitHub </a>
-          </li>
-          <li>
-            <a href="https://www.example.com"> Frontend Mentor </a>
-          </li>
-          <li>
-            <a href="https://www.example.com"> LinkedIn </a>
-          </li>
-          <li>
-            <a href="https://www.example.com"> Twitter </a>
-          </li>
-          <li>
-            <a href="https://www.example.com"> Instagram </a>
-          </li>
-        </ul>
-      </article>
-    </main>
+          <ul class="space-y-4">
+            <li>
+              <a
+                href="https://www.example.com"
+                class="bg-gray rounded-xl block w-full p-4 font-bold text-sm hover:bg-green hover:text-offblack transition-colors"
+              >
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.example.com"
+                class="bg-gray rounded-xl block w-full p-4 font-bold text-sm hover:bg-green hover:text-offblack transition-colors"
+              >
+                Frontend Mentor
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.example.com"
+                class="bg-gray rounded-xl block w-full p-4 font-bold text-sm hover:bg-green hover:text-offblack transition-colors"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.example.com"
+                class="bg-gray rounded-xl block w-full p-4 font-bold text-sm hover:bg-green hover:text-offblack transition-colors"
+              >
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.example.com"
+                class="bg-gray rounded-xl block w-full p-4 font-bold text-sm hover:bg-green hover:text-offblack transition-colors"
+              >
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </article>
+      </main>
 
-    <footer class="">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://rafaeldevvv.github.io/portfolio" target="_blank"
-        >Rafael Maia</a
-      >.
-    </footer>
+      <footer class="mt-6">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="text-green underline hover:no-underline underline-offset-2"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://rafaeldevvv.github.io/portfolio"
+          target="_blank"
+          class="text-green underline hover:no-underline underline-offset-2"
+          >Rafael Maia</a
+        >.
+      </footer>
+    </div>
   </body>
 </html>
